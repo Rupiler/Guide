@@ -1,0 +1,139 @@
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.363)0.334), rgba(255, 255, 255, 0.648);
+    background-image: url(https://virtualyakutia.ru/sites/default/files/pano0001_panorama_0.jpg);
+    height: 650px;
+    background-size: cover;
+    margin-top: -25px;
+    margin-left: -10px;
+    margin-right: -100px;
+}
+
+button{
+    cursor: pointer;
+    margin-left: 590px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family:cursive;
+    margin-left: 545px;
+}
+
+button:hover{
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    transition:ease 0.3s;
+    transition: ease-out 0.3s;
+}
+
+.imageContainer{
+    margin-top: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 250px;
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(blue, red);
+}
+
+h2{
+    text-align: center;
+    font-family: cursive;
+}
+
+h3{
+    text-align: center;
+    font-family: cursive;
+}
+
+h4{
+    font-family: cursive;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    font-family: cursive;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(255, 0, 136));
+}
+
+img{
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul{
+    font-family: cursive;
+
+
+    list-style: none;
+}
+
+li{
+    font-family: cursive;
+}
+
+#достопримечательности{
+    background-color: white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    display: flex;
+    position: static;
+    float: left;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+a{
+    color: inherit;
+}
+#факты{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+    position: static;
+    margin-top: 350px;
+    background-color: white;
+    
+}
+
+#отели{
+    float: right;
+    padding: 15px;
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+#вывод{
+    position: relative;
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    list-style: none;
+    margin-top: 50px;
+    background-color: white;
+}
+
+#титры{
+    padding-bottom: 5px;
+}
+
+#карта{
+    padding-top: 25px;
+}
+
+footer{
+    height: 100px;
+}
